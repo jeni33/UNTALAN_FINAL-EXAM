@@ -1,0 +1,191 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #000000; /* Black */
+    margin: 0;
+    padding-top: 200px;
+    color: #FFFFFF; /* White */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: #FFD700; /* Gold */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.page-heading {
+    color: #FFD700; /* Gold */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.job-posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-card {
+    background-color: #1C1C1C; /* Dark Grey close to black */
+    border: 2px solid #FFD700; /* Gold */
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.post-title, .post-company {
+    margin: 10px 0;
+    color: #FFFFFF; /* White */
+}
+
+.post-description {
+    margin: 15px 0;
+    color: #FFFFFF; /* White */
+    font-size: 0.9em;
+}
+
+.post-status {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.status-active {
+    color: #FFD700; /* Gold */
+}
+
+.status-closed {
+    color: #FF6347; /* Tomato Red for better contrast */
+}
+
+.action-form {
+    margin-top: 10px;
+}
+
+.action-button {
+    background-color: #FFD700; /* Gold */
+    color: #000000; /* Black */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+}
+
+.action-button.closed {
+    background-color: #808080; /* Grey */
+    cursor: not-allowed;
+}
+
+.action-button.view {
+    background-color: #FFD700; /* Gold */
+}
+
+.action-button.view:hover {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+}
+
+.action-button.message {
+    background-color: #FFD700; /* Gold */
+}
+
+.action-button.message:hover {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.userInfo {
+    background-color: #1C1C1C; /* Dark Grey close to black */
+    border: 2px solid #FFD700; /* Gold */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    color: #FFFFFF; /* White */
+}
+
+.userInfo h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #FFD700; /* Gold */
+}
+
+.userInfo span {
+    color: #FFD700; /* Gold */
+    font-weight: bold;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    border-bottom: 2px solid #FFD700; /* Gold */
+    padding: 10px 30px;
+    width: 100%;
+    background-color: #000000; /* Black */
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); 
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    gap: 1050px;
+}
+
+.navbar img {
+    padding-left: 40px;
+    width: 240px;
+    height: 120px;
+}
+
+.navbar a {
+    color: #FFD700; /* Gold */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #FFFFFF; /* White */
+}
+
+.navbar h1 {
+    padding-left: 40px;
+    color: #FFD700; /* Gold */
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.username-highlight {
+    color: #FFD700; /* Gold */
+}
